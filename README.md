@@ -1,0 +1,2 @@
+# CODETECH-Task2
+This is Task 2 of CODETECH IT SOLUTIONS WEB DEVELOPMENT internship.
