@@ -1,0 +1,118 @@
+/* Base styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Input section styles */
+.input-section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+#taskInput:focus {
+    border-color: #007bff;
+}
+
+#addTaskBtn {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#addTaskBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Task list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    background: #fff;
+    margin-top: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 4px solid #007bff;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+li.completed {
+    text-decoration: line-through;
+    background: #d4edda;
+    border-color: #28a745;
+}
+
+li button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #d9534f;
+}
+
+li button:hover {
+    color: #c9302c;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .input-section {
+        flex-direction: column;
+    }
+
+    #taskInput, #addTaskBtn {
+        border-radius: 4px;
+        width: 100%;
+    }
+
+    #taskInput {
+        margin-bottom: 10px;
+    }
+}
