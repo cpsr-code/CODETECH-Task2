@@ -1,2 +1,8 @@
-# CODETECH-Task2
-This is Task 2 of CODETECH IT SOLUTIONS WEB DEVELOPMENT internship.
+Name: CHANDR PAL SINGH RAWAT
+Company: CODTECH IT SOLUTIONS
+ID: CT08DS4565
+Domain: Web Development
+Duration: JULY 10th, 2024 to AUGUST 1Oth, 2024
+Mentor: MUZAMMIL AHMED 
+
+
