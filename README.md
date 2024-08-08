@@ -31,32 +31,33 @@ Technology Used
 
 FILE Structure
 
-HTML (index.html)
-Container: A div with class container to hold all elements.
+HTML (index.html):
+  Container: A div with class container to hold all elements.
 Heading: An h1 element for the title of the app.
 Input Section: An input element for task input and a button to add tasks.
 Task List: An ul element to display tasks.
 
-CSS (styles.css)
-Body: Centered the content and set a background color.
+CSS (styles.css):
+  Body: Centered the content and set a background color.
 Container: Added padding, border-radius, and box-shadow for styling.
 Input Section: Styled the input and button for a better user experience.
 Task List: Styled tasks and added a completed class for completed tasks.
 
-JavaScript (script.js)
-DOMContentLoaded Event: Ensures the script runs after the DOM is fully loaded.
+JavaScript (script.js):
+  DOMContentLoaded Event: Ensures the script runs after the DOM is fully loaded.
 Add Task Button: Adds a task to the list.
 Enter Key Event: Adds a task when pressing the Enter key.
 Add Task Function: Creates a new task element with a delete button and toggle for marking it as completed.
 
-Conclusion
-This to-do list web application is a simple and effective way to manage tasks. 
+Conclusion:
+  This to-do list web application is a simple and effective way to manage tasks. 
 The provided documentation includes a project overview, feature list, and detailed descriptions of the HTML, CSS, and JavaScript files. 
 This should make it easy to understand the project and modify or extend it as needed.
 
 
 
-Here is outcome images
-![to-do2](https://github.com/user-attachments/assets/dc6fc5e3-ed9a-4455-b71c-556fee981cf9)
-![to-do1](https://github.com/user-attachments/assets/9e617dee-8197-48a5-97e2-90fb2f17eb78)
+Outcome : 
+![to-do2](https://github.com/user-attachments/assets/3bb1a1cb-c737-40f8-b0ff-1c177915de6a)
+![to-do1](https://github.com/user-attachments/assets/33f4487d-4f93-4423-a40a-8d7d307a5015)
+
 
